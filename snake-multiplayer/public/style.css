@@ -1,0 +1,168 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+}
+
+#btn{
+    /*font-size: 25px;*/
+    height: 40px;
+    width: 120px;
+    border-radius: 100000px;
+    background-color: #C0C0C0;
+    transition-duration: 0.5s;
+}
+
+#btn:hover,#btn:active{
+    background-color: #a5a5a5;
+    cursor: pointer;
+}
+#username{
+    font-size: 25px;
+    height: 40px;
+    border-radius: 100000px;
+    margin-right: 10px;
+}
+
+.user{
+    position: fixed;
+    float: left;
+    display: inline-block;
+    z-index: 2;
+    color: rgb(255,0,100) !important;
+    left: 20px;
+    top: 40px;
+    /*font-size: 25px;*/
+}
+
+.user .multiplier{
+    display: block;
+    position: relative;
+}
+
+.user .score{
+    display: block;
+    position: relative;
+
+}
+
+#init{
+    display: none;
+}
+
+#defaultCanvas0{
+    position: absolute;
+    filter: blur(2px);
+    top:0;
+    left:0;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    height: auto !important;
+    width: auto !important;
+}
+
+
+
+.leaderboard{
+    /*font-size: 25px;*/
+    position: fixed;
+    top: 40px;
+    right: 5px;
+    display: inline-block;
+    height: 200px;
+    width: 300px;
+    background: #00f0;
+    opacity: 1;
+    z-index: 2;
+}
+
+#message-multiplier{
+    visibility: hidden;
+    position: fixed;
+    top:40px;
+    transition: font-size;
+    transition-delay: 1s;
+    color: rgb(138,43,226);
+    z-index: 2;
+    left: 42%;
+    font-size: 200%;
+}
+
+.user p{
+    color: white;
+    display: inline;
+}
+
+.leaderboard ul li {
+    font-weight: 500;
+    color: white;
+    list-style: none;
+    /*font-size: 40px;*/
+    padding-bottom: 10px;
+}
+
+#your{
+    position: relative;
+    padding-left: 20px;
+    top: 5%;
+}
+
+.leaderboard ul li div{
+    display: inline-block;
+    /*font-size: 40px;*/
+    width: 150px;
+    padding-left: 20px;
+}
+.my_score{
+    color: rgb(250, 255, 2) !important;
+}
+
+#input {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 3;
+    visibility: hidden;
+}
+
+#input h1 {
+    color: white;
+
+    position: relative;
+    left: 70px;
+    bottom: 30px;
+    font-size: 90px;
+}
+
+#die{
+    z-index: 2;
+    display: none;
+    position: fixed;
+    top: 40%;
+    left: 40%;
+    transition-delay: 3s;
+}
+
+#die h2{
+    color:#d74444;
+    font-size: 80px;
+
+}
+
+#scr{
+    position: relative;
+    left: 60px;
+    top:2px;
+    font-size: 40px;
+}
+
+#multi{
+    font-size: 40px;
+    position: relative;
+    top:3px;
+    left: 10px;
+}
