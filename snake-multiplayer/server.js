@@ -4,7 +4,7 @@ const socketio = require('socket.io')
 
 const app = express()
 
-var port = process.env.PORT || 9999;
+var port = process.env.PORT || 3000;
 
 const server = http.createServer(app)
 const io = socketio(server)
@@ -95,5 +95,5 @@ app.use('/',express.static(__dirname + '/public'))
 
 
 server.listen(port,() => {
-    console.log("connected to server on port http://local:9999")
+    console.log("connected to server on port http://local:3000")
 })
