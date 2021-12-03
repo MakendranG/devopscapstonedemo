@@ -1,0 +1,12 @@
+{
+  "name": "snake-multiplayer",
+  "version": "1.0.0",
+  "description": "A simple snake game that can be played multiplayer online. Game contains unique dynamics to increase competitiveness.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
