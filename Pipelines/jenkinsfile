@@ -6,7 +6,7 @@ node {
 
 
 
-dir('snake-multiplayer') {
+dir('snake-multiplayer/') {
 
     // some block
 
