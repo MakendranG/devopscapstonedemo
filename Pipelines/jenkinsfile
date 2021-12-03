@@ -21,6 +21,13 @@ stage('Git Checkout') {
 }
 
 
+stage('Application Deployed') {
+
+    // some block
+
+    sh 'npm init'
+
+}
 
 
 
