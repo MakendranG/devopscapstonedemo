@@ -1,0 +1,12 @@
+version: '1'
+services:
+  snake:
+    image: 'zmonsif/test:new'
+    environment:
+      - "PORT:3000"
+    command: npm start
+    ports:
+      - "80:3000"
+    volumes:
+      - ./:/app
+  
